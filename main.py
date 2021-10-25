@@ -1,8 +1,6 @@
-from Program.imageReader import ImageReader as Ir
-from Program.imageShow import ImageShow as Is
-path = "/image"
+from Program.video.video_prac import video_capture
 
-if __name__ == "__main__":
+path = "image/"
 
-    image = Ir.Read(path + "/testImg.png")
-    Is.Show(image)
+if __name__ == "__main__" :
+    video_capture()
